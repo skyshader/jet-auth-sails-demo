@@ -1,0 +1,29 @@
+{
+  "name": "test_api",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "include-all": "~0.1.6",
+    "jsonwebtoken": "^7.0.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "rc": "1.0.1",
+    "sails": "~0.12.3",
+    "sails-disk": "~0.10.9"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shaan/test_api.git"
+  },
+  "author": "shaan",
+  "license": ""
+}

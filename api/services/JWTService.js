@@ -35,7 +35,7 @@ module.exports = {
       jwtSettings.secret,
       {
         algorithm: jwtSettings.algorithm,
-        expiresInMinutes: jwtSettings.expiresInMinutes,
+        expiresIn: jwtSettings.expiresIn,
         issuer: jwtSettings.issuer,
         audience: jwtSettings.audience
       }

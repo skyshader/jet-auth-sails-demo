@@ -1,0 +1,38 @@
+{
+  "name": "VPCalcMinimal",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Calculator CMS REST API",
+  "keywords": [],
+  "dependencies": {
+    "include-all": "~0.1.6",
+    "rc": "1.0.1",
+    "sails": "~0.12.3",
+    "sails-disk": "~0.10.9",
+    "sails-mongo": "^0.12.0",
+    "bcrypt-nodejs": "0.0.3",
+    "jsonwebtoken": "^7.0.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.13.4",
+    "http-errors": "^1.5.0",
+    "mocha": "^2.5.2",
+    "supertest": "^1.2.0"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js",
+    "test": "node ./node_modules/mocha/bin/mocha test/bootstrap.test.js test/integration/**/*.test.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/venturepact/VPCalc.git"
+  },
+  "author": "VP Dev Team",
+  "license": "VenturePact - Copyright 2016"
+}

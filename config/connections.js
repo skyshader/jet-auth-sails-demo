@@ -56,6 +56,7 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
+
   mLabTest: {
     adapter: 'sails-mongo'
   },

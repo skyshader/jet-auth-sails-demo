@@ -30,7 +30,6 @@ module.exports = {
       type: 'string',
       defaultsTo: ''
     },
-
     toJSON: function () {
       var obj = this.toObject();
       delete obj.password;
@@ -46,4 +45,3 @@ module.exports = {
     next();
   }
 };
-
